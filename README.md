@@ -1,4 +1,4 @@
-<h1 align="right">Command Pattern Remote Control</h1><br>
+<h1 align="right">Command Pattern Order</h1><br>
 
 ## Table of contents
 * [General info](#general-info)
@@ -9,7 +9,11 @@
 ## General info
 This project shows usage of command pattern.  
 The main principle is to encapsulate a request as an object. This lets parameterize clients with different requests, queue or log requests and support undoable operations.  
-In command pattern we define 
+In command pattern we define:
+1. Command interface with method like execute()
+2. Request class
+3. Concrete classes implementing the command interface.
+4. Command Invoker class.
 
 ## Technologies
 Project is created with:
